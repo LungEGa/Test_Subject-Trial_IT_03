@@ -14,7 +14,7 @@ namespace Trial_IT_03
         {
             // --- Initiate Form --- //
             Form_IT_03_Submit SubmitApprove = new Form_IT_03_Submit();
-            SubmitApprove.Text = "ยืนยันการอนุมัติ";
+            SubmitApprove.SubmitStatusForm(submit_status: "Approve");
             // --- Presenting -- //
             SubmitApprove.ShowDialog();
         }
@@ -23,7 +23,7 @@ namespace Trial_IT_03
         {
             // --- Initiate Form --- //
             Form_IT_03_Submit SubmitReject = new Form_IT_03_Submit();
-            SubmitReject.Text = "ยืนยันการไม่อนุมัติ";
+            SubmitReject.SubmitStatusForm(submit_status: "Reject");
             // --- Presenting -- //
             SubmitReject.ShowDialog();
         }

@@ -16,5 +16,21 @@ namespace Trial_IT_03
         {
             InitializeComponent();
         }
+
+        // ----- Transforming Submission Form on Status ----- //
+        public void SubmitStatusForm(string submit_status)
+        {
+            if (submit_status.ToLower().Trim() == "approve")
+            {
+                this.Text = "ยืนยันการอนุมัติ";
+                this.BTN_Submit.Text = "อนุมัติ";
+            }
+            else if (submit_status.ToLower().Trim() == "reject") 
+            {
+                this.Text = "ยืนยันการไม่อนุมัติ";
+                this.BTN_Submit.Text = "ไม่อนุมัติ";
+            }
+
+        }
     }
 }
