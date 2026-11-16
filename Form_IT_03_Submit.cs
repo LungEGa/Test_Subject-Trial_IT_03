@@ -25,7 +25,7 @@ namespace Trial_IT_03
                 this.Text = "ยืนยันการอนุมัติ";
                 this.BTN_Submit.Text = "อนุมัติ";
             }
-            else if (submit_status.ToLower().Trim() == "reject") 
+            else if (submit_status.ToLower().Trim() == "reject")
             {
                 this.Text = "ยืนยันการไม่อนุมัติ";
                 this.BTN_Submit.Text = "ไม่อนุมัติ";

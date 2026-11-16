@@ -42,7 +42,7 @@
             this.BTN_Approve.Location = new System.Drawing.Point(10, 17);
             this.BTN_Approve.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTN_Approve.Name = "BTN_Approve";
-            this.BTN_Approve.Size = new System.Drawing.Size(193, 75);
+            this.BTN_Approve.Size = new System.Drawing.Size(174, 62);
             this.BTN_Approve.TabIndex = 0;
             this.BTN_Approve.Text = "อนุมัติ";
             this.BTN_Approve.UseVisualStyleBackColor = false;
@@ -53,10 +53,10 @@
             this.BTN_Reject.BackColor = System.Drawing.Color.Red;
             this.BTN_Reject.Font = new System.Drawing.Font("Angsana New", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Reject.ForeColor = System.Drawing.Color.White;
-            this.BTN_Reject.Location = new System.Drawing.Point(209, 17);
+            this.BTN_Reject.Location = new System.Drawing.Point(190, 17);
             this.BTN_Reject.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTN_Reject.Name = "BTN_Reject";
-            this.BTN_Reject.Size = new System.Drawing.Size(193, 75);
+            this.BTN_Reject.Size = new System.Drawing.Size(183, 62);
             this.BTN_Reject.TabIndex = 2;
             this.BTN_Reject.Text = "ไม่อนุมัติ";
             this.BTN_Reject.UseVisualStyleBackColor = false;
@@ -65,19 +65,19 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 114);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 87);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(924, 798);
+            this.dataGridView1.Size = new System.Drawing.Size(1038, 573);
             this.dataGridView1.TabIndex = 3;
             // 
             // Form_IT_03
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 1035);
+            this.ClientSize = new System.Drawing.Size(1062, 673);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BTN_Approve);
             this.Controls.Add(this.BTN_Reject);

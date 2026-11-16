@@ -12,19 +12,19 @@ namespace Trial_IT_03
 
         private void BTN_Approve_Click(object sender, EventArgs e)
         {
-            // --- Initiate Form --- //
+            // ----- Initiate Form ----- //
             Form_IT_03_Submit SubmitApprove = new Form_IT_03_Submit();
             SubmitApprove.SubmitStatusForm(submit_status: "Approve");
-            // --- Presenting -- //
+            // ----- Presenting ----- //
             SubmitApprove.ShowDialog();
         }
 
         private void BTN_Reject_Click(object sender, EventArgs e)
         {
-            // --- Initiate Form --- //
+            // ----- Initiate Form ----- //
             Form_IT_03_Submit SubmitReject = new Form_IT_03_Submit();
             SubmitReject.SubmitStatusForm(submit_status: "Reject");
-            // --- Presenting -- //
+            // ----- Presenting ----- //
             SubmitReject.ShowDialog();
         }
     }
