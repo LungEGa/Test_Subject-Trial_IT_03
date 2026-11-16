@@ -11,11 +11,7 @@ Signed ©️ : LungEGa 🐺 (Supanat Semachai)   2026-11-16T18:18:32+07:00
 
 In this program, I used Visual Studio project with Windows Application in C#.Net (Framework version 4.7.2) along with MSSQL Server version 17.0.1000.7, Standard Developer Edition (64-bit).
 
-As for the application configuration, please see in the "App.config" file. Under "environment" component tag, there are "appSettings" and "connectionSettings" components for this application's configure file.
-
-For the "appSettings", nothing special due to preparing in case any variable or settings needed to keep in application level. This could be adjusted or cofigurated as needed.
-
-For the "connectionSettings", this will be the one stored database configuration for the application itself. Please feel free to edit "access_name", "access_credentials", "server_name" and "database_name", which involved in database connection, to your own database access.
+As for the application configuration, please see in the "App.config" file. Under "appSettings" component tag, please feel free to edit "access_name", "access_credentials", "server_name" and "database_name", which involved in database connection, to your own database access.
 
 As for the database part, please take a look and carefully execute "sql_db_env_test.sql" file, since this one contain database and table scripts needed for this program along with some scripts on pending progress, which is not need to be executed. \
 ⚠️ For distinquision, I put tag [Required] upon needed scripts.
