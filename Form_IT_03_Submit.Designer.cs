@@ -79,6 +79,7 @@
             this.BTN_Cancel.TabIndex = 3;
             this.BTN_Cancel.Text = "ยกเลิก";
             this.BTN_Cancel.UseVisualStyleBackColor = false;
+            this.BTN_Cancel.Click += new System.EventHandler(this.BTN_Cancel_Click);
             // 
             // Form_IT_03_Submit
             // 

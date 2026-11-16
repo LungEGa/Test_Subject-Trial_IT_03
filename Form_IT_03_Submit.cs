@@ -32,5 +32,10 @@ namespace Trial_IT_03
             }
 
         }
+
+        private void BTN_Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

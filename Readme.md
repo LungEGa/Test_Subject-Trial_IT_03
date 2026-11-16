@@ -4,7 +4,7 @@ This code is not finished due to time-constraint in 16 hours, so I did what I co
 Furthermore, this code solely purpose to share for reviewing as a part of Job Application, simplified for testing question. \
 ❌❌❌ <span style="font-weight: bold; color: red;">DO NOT ATTEMPT TO COPY OR EDIT FOR YOUR OWN WITHOUT PERMISSION!!!</span> ❌❌❌
 
-Signed ©️ : LungEGa 🐺 (Supanat Semachai)   2026-11-16TXX:XX:XX+07:00
+Signed ©️ : LungEGa 🐺 (Supanat Semachai)   2026-11-16T18:18:32+07:00
 
 
 ### 🔧 Pre-requisite and Configuration ...
@@ -15,7 +15,7 @@ As for the application configuration, please see in the "App.config" file. Under
 
 For the "appSettings", nothing special due to preparing in case any variable or settings needed to keep in application level. This could be adjusted or cofigurated as needed.
 
-For the "connectionSettings", this will be the one stored database configuration for the application itself. Please feel free to edit "access_name" and "access_credentials", which involved in database connection, to your own database access.
+For the "connectionSettings", this will be the one stored database configuration for the application itself. Please feel free to edit "access_name", "access_credentials", "server_name" and "database_name", which involved in database connection, to your own database access.
 
 As for the database part, please take a look and carefully execute "sql_db_env_test.sql" file, since this one contain database and table scripts needed for this program along with some scripts on pending progress, which is not need to be executed. \
 ⚠️ For distinquision, I put tag [Required] upon needed scripts.
@@ -23,13 +23,21 @@ As for the database part, please take a look and carefully execute "sql_db_env_t
 ### ✅ What I have already done ...
 
 - Main form with Data Grid View and Approval buttons, all Button events for new pop-up form is ready.
-- 
+- Preliminary established configurations.
+- Testing data table along with the sample data.
 
 ### ‼️ What I have staggered ...
 
-Due to I failed to create a database credential for testing properly, most features for this application is not implemented, espectially Button events for updating database records. Also, the Data Retrieval to Data Grid View is not introduced yet.
+Due to I failed to create a database credential for testing properly, most features for this application is not implemented.
 
-- xxx.
-
+- "DBConn" module for database connection, and query retrival is not finished yet.
+- DataGridView in Main form could not finished, due to lack on scripting towards database connection.
+- Checkbox for each record inside DataGridView.
+- Submit button to interact as updating data to the database.
 
 ### 🚏 What I plan on TO-DO list (if continue) ...
+
+- Prepare and "DBConn" module for database connection, and query retrival.
+- Initiate dataset to DataGridView for presentation.
+- Checkbox integrated for each record, along with handling script depening on request status.
+- Replace Request's ID with UUID-7 instead of usual Integer, unique value with timestamp. Also, replacing field to handle UUID-7 value, and UUID-7 generating function within the application itself.
