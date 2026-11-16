@@ -1,10 +1,11 @@
 ﻿# &lt;&lt;&lt; README for Trail Test IT-03 &gt;&gt;&gt;
 
 This code is not finished due to time-constraint in 16 hours, so I did what I could in this timeframe. \
-Furthermore, this code solely purpose to share for reviewing as a part of Job Application, simplified for testing question. \
-❌❌❌ <span style="font-weight: bold; color: red;">DO NOT ATTEMPT TO COPY OR EDIT FOR YOUR OWN WITHOUT PERMISSION!!!</span> ❌❌❌
+Furthermore, this code solely purpose to share for reviewing as a part of Job Application from FPT Thailand, FPT Corporation. The program is simplified for testing question. \
+❌❌❌ <span style="font-weight: bold; color: red;">DO NOT ATTEMPT TO COPY OR EDIT FOR YOUR OWN WITHOUT PERMISSION!!!</span> ❌❌❌ \
+©️ The test question is copyrighted by FPT Thailand, FPT Corporation.
 
-Signed ©️ : LungEGa 🐺 (Supanat Semachai)   2026-11-16T18:18:32+07:00
+Signed : LungEGa 🐺 (Supanat Semachai)   2026-11-16T18:18:32+07:00
 
 
 ### 🔧 Pre-requisite and Configuration ...
